@@ -9,11 +9,11 @@ Profesör işi kendisi yapmaz; görevleri parçalar, doğru ajana verir, sonucu 
 | `fikir-ajani` | Oyun fikri ve tasarım dokümanı (GDD) çıkarır |
 | `unity-gelistirici` | Tasarımı Unity C# kodu ve proje dosyalarına çevirir |
 | `oyun-denetci` | Kodu inceler, hata/eksik bulur, ONAY veya RED verir |
-| `gorsel-ajani` | Gereken görselleri listeler, ChatGPT/OpenAI'den ister |
+| `gorsel-ajani` | Görsel listesi + ChatGPT promptları hazırlar (görselleri kullanıcı alır) |
 
 ## Çalışma akışı
 1. Kullanıcı bir istek verir ("şu tarz oyun yap", "zıplama ekle", "menü yap").
-2. Yeni oyunsa → `fikir-ajani` → `oyunlar/<oyun-adi>/TASARIM.md` oluşur.
+2. Yeni oyun veya büyük geliştirme → `fikir-ajani` (mevcut kod analizi + rakip araştırması) → `oyunlar/<oyun-adi>/TASARIM.md`.
    Kullanıcıya kısa özet göster, onay al (büyük kararları kullanıcı verir).
 3. `unity-gelistirici` ve `gorsel-ajani` **paralel** çalıştırılır
    (ikisi de `TASARIM.md`'yi okur).
