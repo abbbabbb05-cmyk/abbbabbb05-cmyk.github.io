@@ -1,0 +1,13 @@
+{
+  "baslik": "Oyun Tanitim",
+  "renk": "#3a0ca3",
+  "karakterler": {
+    "oyuncu": {"tip": "oyuncu", "ad": "Ben"}
+  },
+  "sahneler": [
+    {"tip": "baslik", "yazi": "Bu oyunu 5 dakikada bırakamazsın", "emoji": "🎮", "soz": "Bu oyunu beş dakika oynayıp bırakamazsın."},
+    {"tip": "oyun", "gorseller": ["ss1.png", "ss2.png"], "yazi": "Tek parmakla oyna", "etiket": "Ücretsiz", "soz": "Tek parmakla oynuyorsun, her bölüm biraz daha zorlaşıyor."},
+    {"tip": "dialog", "arkaplan": "duz", "renk": "#7209b7", "konusan": "oyuncu", "duygu": "kizgin", "efekt": "sallan", "emoji": "😤", "soz": "Bir bölüm daha dedim, saat gece üç oldu!"},
+    {"tip": "kapanis", "gorsel": "ikon.png", "yazi": "Hemen indir", "alt": "Google Play'de ücretsiz", "buton": "İndir", "soz": "Linki profilde, hemen indir."}
+  ]
+}
