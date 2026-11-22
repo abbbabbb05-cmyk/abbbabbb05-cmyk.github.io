@@ -1,0 +1,19 @@
+{
+  "baslik": "Satis Danismani Musteri Kacirmaz",
+  "kanal": "@kanaladi",
+  "renk": "#e63946",
+  "karakterler": {
+    "danisman": {"tip": "danisman", "ad": "Danışman Kemal"},
+    "musteri": {"tip": "musteri", "ad": "Müşteri"}
+  },
+  "sahneler": [
+    {"tip": "baslik", "yazi": "Satış danışmanına sadece bakmaya geldim deme", "emoji": "😏", "soz": "Satış danışmanına asla sadece bakıyorum deme."},
+    {"tip": "dialog", "arkaplan": "galeri", "tabela": "Yılbaşı Kampanyası", "sahnede": ["danisman", "musteri"], "konusan": "danisman", "duygu": "mutlu", "soz": "Hoş geldiniz efendim! Nasıl yardımcı olabilirim?"},
+    {"tip": "dialog", "arkaplan": "galeri", "tabela": "Yılbaşı Kampanyası", "sahnede": ["danisman", "musteri"], "konusan": "musteri", "duygu": "supheli", "soz": "Yok sağ olun, sadece bakıyorum."},
+    {"tip": "dialog", "arkaplan": "galeri", "tabela": "Yılbaşı Kampanyası", "sahnede": ["danisman", "musteri"], "konusan": "danisman", "duygu": "sinsi", "efekt": "zoom", "emoji": "😏", "soz": "Harika! Bakmak ücretsiz. Ama bakmanın da bir taksit seçeneği var."},
+    {"tip": "dialog", "arkaplan": "galeri", "tabela": "Yılbaşı Kampanyası", "sahnede": ["danisman", "musteri"], "konusan": "musteri", "duygu": "sasirmis", "efekt": "sallan", "emoji": "😳", "soz": "Bakmanın taksiti mi olur?"},
+    {"tip": "dialog", "arkaplan": "galeri", "tabela": "Yılbaşı Kampanyası", "sahnede": ["danisman", "musteri"], "konusan": "danisman", "duygu": "mutlu", "duygular": {"musteri": "uzgun"}, "emoji": "✍️", "soz": "Oldu bile. İmzayı şuraya atıyorsunuz."},
+    {"tip": "liste", "yazi": "Gerçek satışın 3 kuralı", "maddeler": ["Önce dinle", "Doğru soruyu sor", "Asla ısrar etme"], "soz": "Şaka bir yana, gerçek satışın üç kuralı var. Önce dinle. Doğru soruyu sor. Ve asla ısrar etme."},
+    {"tip": "kapanis", "yazi": "Sen hangi müşterisin?", "alt": "Yorumlara yaz 👇", "emoji": "🤝", "buton": "Takip et", "soz": "Sen hangi müşterisin? Yorumlara yaz."}
+  ]
+}
